@@ -36,7 +36,7 @@ export function Signup() {
         
         <input
           type="text"
-          placeholder="Enter username"
+          placeholder="Enter Email"
           className="bg-gray-200 text-black rounded-lg p-2 mb-4 w-full"
           onChange={(e)=>{
             setUsername(e.target.value)
